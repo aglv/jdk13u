@@ -10,3 +10,17 @@ of the source code, please see either of these files:
 
 See http://openjdk.java.net/ for more information about the OpenJDK
 Community and the JDK.
+
+# Building
+
+macOS Monterey 12.6 running on Intel macOS
+
+```
+bash configure --with-native-debug-symbols=none --with-version-pre=op --with-version-opt= --with-debug-level=release
+```
+
+Running tests requires --with-jtreg=...
+
+```
+make images
+```

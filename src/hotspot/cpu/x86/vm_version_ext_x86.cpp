@@ -744,7 +744,7 @@ const char* const VM_Version_Ext::_family_id_amd[ExtendedFamilyIdLength_AMD] = {
   "",
   "",
   "Opteron/Athlon64",
-  "Opteron QC/Phenom"  // Barcelona et.al.
+  "Opteron QC/Phenom",  // Barcelona et.al.
   "",
   "",
   "",
